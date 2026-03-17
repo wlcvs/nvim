@@ -16,6 +16,7 @@ return {
 	    "lua",
 	    "php",
 	    "javascript",
+	    "markdown",
 	    "java",
 	    "typescript",
 	    "python",

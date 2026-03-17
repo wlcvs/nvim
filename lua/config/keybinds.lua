@@ -1,2 +1,8 @@
+local map = vim.keymap.set
+
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>cd", vim.cmd.Ex)
+
+map("n", "<leader>cd", vim.cmd.Ex)
+
+map("n", "<C-s>", ":w<CR>")
+map("n", "<C-q>", ":q<CR>")
