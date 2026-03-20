@@ -42,4 +42,8 @@ return {
     config = true
   },
 
+  {
+    "kylechui/nvim-surround",
+  },
+
 }
