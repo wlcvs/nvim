@@ -35,5 +35,11 @@ return {
       require("mason").setup()
     end
   },
-  
+
+  {
+    "windwp/nvim-autopairs", 
+    event = "InsertEnter",
+    config = true
+  },
+
 }
