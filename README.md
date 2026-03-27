@@ -4,16 +4,38 @@ Minimalist Neovim configuration using Lazy as the plugin manager.
 
 ## Requirements
 
-- Neovim >= 0.8
-- Git
-- C compiler (for TreeSitter)
-- ripgrep (for Telescope live_grep)
-- fd (for Telescope find_files)
+Install the following dependencies before setting up:
+
+| Dependency | Package | Description |
+|------------|---------|-------------|
+| Neovim >= 0.8 | `neovim` | Text editor |
+| Git | `git` | Version control |
+| C compiler | `gcc` | For TreeSitter |
+| ripgrep | `ripgrep` | For Telescope live_grep |
+| fd | `fd` | For Telescope find_files |
+
+### Arch Linux
+
+```bash
+sudo pacman -S neovim git gcc ripgrep fd
+```
+
+### Debian/Ubuntu
+
+```bash
+sudo apt install neovim git build-essential ripgrep fd-find
+```
+
+### macOS
+
+```bash
+brew install neovim git ripgrep fd
+```
 
 ## Installation
 
 ```bash
-git clone https://github.com/your-user/dotfiles ~/.config/nvim
+git clone git@github.com:wlcvs/nvim.git ~/.config/nvim
 nvim
 ```
 
@@ -40,10 +62,6 @@ nvim
 | **mason.nvim** | LSP server manager |
 | **nvim-autopairs** | Auto pairs (brackets, quotes, etc) |
 | **nvim-surround** | Surrounding character manipulation |
-
-### TreeSitter Parsers
-
-lua, php, javascript, markdown, java, typescript, python, rust, c, cpp, sql, css, html, tsx, haskell
 
 ## Keybindings
 
