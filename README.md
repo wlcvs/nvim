@@ -45,16 +45,6 @@ nvim
 
 lua, php, javascript, markdown, java, typescript, python, rust, c, cpp, sql, css, html, tsx, haskell
 
-## Settings
-
-- **numbers**: absolute and relative line numbers
-- **tab**: 2 spaces
-- **mouse**: enabled
-- **backup/swapfile**: disabled
-- **wrap**: disabled
-- **hlsearch/incsearch**: enabled
-- **autoindent/smartindent**: enabled
-
 ## Keybindings
 
 ### Global
