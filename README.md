@@ -14,22 +14,19 @@ Install the following dependencies before setting up:
 | ripgrep | `ripgrep` | For Telescope live_grep |
 | fd | `fd` | For Telescope find_files |
 
-### Arch Linux
-
+### Arch
 ```bash
 sudo pacman -S neovim git gcc ripgrep fd
 ```
 
-### Debian/Ubuntu
-
+### Debian / Ubuntu
 ```bash
 sudo apt install neovim git build-essential ripgrep fd-find
 ```
 
-### macOS
-
+### Fedora
 ```bash
-brew install neovim git ripgrep fd
+sudo dnf install neovim git gcc ripgrep fd-find
 ```
 
 ## Installation
@@ -76,9 +73,8 @@ On first launch, lazy.nvim installs all plugins automatically. TreeSitter parser
 
 | Plugin | Description |
 |--------|-------------|
-| **tokyonight.nvim** | Color theme |
-| **lualine.nvim** | Status bar |
-| **nvim-web-devicons** | Icons |
+| **mono** | Custom colorscheme (zinc grayscale) |
+| **lualine.nvim** | Status bar (monochromatic, icons disabled) |
 
 ### Navigation
 
